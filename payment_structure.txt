@@ -1,0 +1,51 @@
+ table_schema |     table_name      |          column_name          |          data_type          | character_maximum_length 
+--------------+---------------------+-------------------------------+-----------------------------+--------------------------
+ payment      | process_beneficary  | ben_acc_change_atpaymentt     | integer                     |                         
+ payment      | process_beneficary  | acc_change_enabled            | boolean                     |                         
+ payment      | process_beneficary  | acc_change_sms_triggered      | boolean                     |                         
+ payment      | process_beneficary  | acc_updation_link_valid_till  | date                        |                         
+ payment      | in_merit_applicants | state_board_id                | integer                     |                         
+ payment      | process_beneficary  | nsp_scheme_id                 | integer                     |                         
+ payment      | process_beneficary  | grouping_parameter            | integer                     |                         
+ payment      | in_merit_applicants | elastic_time                  | timestamp without time zone |                         
+ payment      | in_merit_applicants | scheme_id                     | integer                     |                         
+ payment      | process_beneficary  | acc_updation_link_active_from | timestamp without time zone |                         
+ payment      | process_beneficary  | elastic_time                  | timestamp without time zone |                         
+ payment      | process_beneficary  | time_extension_counter        | integer                     |                         
+ payment      | process_beneficary  | uid_notification_stduent_ts   | timestamp without time zone |                         
+ payment      | process_beneficary  | uid_counter                   | integer                     |                         
+ payment      | process_beneficary  | uid_correction_windows_ts     | timestamp without time zone |                         
+ payment      | process_beneficary  | category_id                   | character varying           |                       20
+ payment      | process_beneficary  | name_as_in_bank_account       | character varying           |                      500
+ payment      | process_beneficary  | rejection_reason_code         | character varying           |                      100
+ payment      | process_beneficary  | rejection_reason_desc         | character varying           |                     2048
+ payment      | process_beneficary  | ben_type                      | character varying           |                       10
+ payment      | process_beneficary  | scheme_changed                | character varying           |                       10
+ payment      | process_beneficary  | gender                        | character                   |                        1
+ payment      | process_beneficary  | address_text                  | character varying           |                      255
+ payment      | process_beneficary  | acc_change_remarks            | character varying           |                       25
+ payment      | process_beneficary  | fresh_renewal                 | character                   |                        1
+ payment      | process_beneficary  | action_taken                  | character                   |                        5
+ payment      | process_beneficary  | batch_id                      | character varying           |                       20
+ payment      | process_beneficary  | address_as_per_pfms           | text                        |                         
+ payment      | process_beneficary  | pin_code                      | character varying           |                       50
+ payment      | process_beneficary  | gender_in_bank                | character varying           |                       15
+ payment      | process_beneficary  | mobile_no_in_bank             | character varying           |                      100
+ payment      | in_merit_applicants | application_id                | character varying           |                       25
+ payment      | process_beneficary  | user_mobile_no                | character                   |                       10
+ payment      | process_beneficary  | application_id                | character varying           |                       25
+ payment      | process_beneficary  | applicant_name                | character varying           |                      100
+ payment      | process_beneficary  | pfms_scheme_code              | character varying           |                       10
+ payment      | process_beneficary  | ifsc_code                     | character varying           |                       11
+ payment      | process_beneficary  | bank_account_no               | character varying           |                       35
+ payment      | process_beneficary  | bank_name                     | character varying           |                      100
+ payment      | process_beneficary  | aadhaar_no                    | character varying           |                       12
+ payment      | process_beneficary  | pfms_ben_code                 | character varying           |                       50
+ payment      | process_beneficary  | pay_method                    | character                   |                        1
+ payment      | process_beneficary  | status                        | character varying           |                       25
+ payment      | process_beneficary  | agency_name                   | character varying           |                      100
+ payment      | process_beneficary  | agency_id                     | character varying           |                       25
+ payment      | process_beneficary  | district_code                 | character varying           |                        5
+ payment      | process_beneficary  | state_code                    | character varying           |                        2
+(47 rows)
+

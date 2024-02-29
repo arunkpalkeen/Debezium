@@ -1,0 +1,138 @@
+ table_schema |             table_name              |         column_name          |          data_type          | character_maximum_length 
+--------------+-------------------------------------+------------------------------+-----------------------------+--------------------------
+ nspprod      | data_applicant_registration_details | registered_date              | timestamp without time zone |                         
+ nspprod      | data_applicant_registration_details | date_of_birth                | date                        |                         
+ nspprod      | data_applicant_registration_details | category_id                  | numeric                     |                         
+ nspprod      | data_applicant_registration_details | is_minority                  | boolean                     |                         
+ nspprod      | data_applicant_registration_details | disability_flag              | boolean                     |                         
+ nspprod      | data_applicant_registration_details | disablity_type               | integer                     |                         
+ nspprod      | data_applicant_registration_details | disability_percentage        | integer                     |                         
+ nspprod      | data_applicant_registration_details | orphan_flag                  | boolean                     |                         
+ nspprod      | data_applicant_registration_details | hosteller                    | boolean                     |                         
+ nspprod      | data_applicant_registration_details | annual_family_income         | integer                     |                         
+ nspprod      | data_applicant_registration_details | marital_status               | integer                     |                         
+ nspprod      | data_applicant_registration_details | parent_occupation            | integer                     |                         
+ nspprod      | data_applicant_registration_details | bank_id                      | numeric                     |                         
+ nspprod      | data_applicant_registration_details | permanent_state_id           | numeric                     |                         
+ nspprod      | data_applicant_registration_details | permanent_district_id        | numeric                     |                         
+ nspprod      | data_applicant_registration_details | permanent_mandal_id          | numeric                     |                         
+ nspprod      | data_applicant_registration_details | permanent_village_id         | numeric                     |                         
+ nspprod      | data_applicant_registration_details | permanent_pincode            | numeric                     |                         
+ nspprod      | data_applicant_registration_details | mobile_no                    | numeric                     |                         
+ nspprod      | data_applicant_registration_details | application_level            | numeric                     |                         
+ nspprod      | data_applicant_registration_details | updated_on                   | timestamp without time zone |                         
+ nspprod      | data_applicant_registration_details | created_on                   | timestamp without time zone |                         
+ nspprod      | data_applicant_registration_details | religion                     | integer                     |                         
+ nspprod      | data_applicant_registration_details | admission_fee                | numeric                     |                         
+ nspprod      | data_applicant_registration_details | tution_fee                   | numeric                     |                         
+ nspprod      | data_applicant_registration_details | class_start_date             | date                        |                         
+ nspprod      | data_applicant_registration_details | pre_post_matric              | integer                     |                         
+ nspprod      | data_applicant_registration_details | inst_verify_by               | numeric                     |                         
+ nspprod      | data_applicant_registration_details | inst_verify_date             | timestamp without time zone |                         
+ nspprod      | data_applicant_registration_details | modeofstudy                  | integer                     |                         
+ nspprod      | data_applicant_registration_details | misc_fee                     | integer                     |                         
+ nspprod      | data_applicant_registration_details | dist_verify_by               | numeric                     |                         
+ nspprod      | data_applicant_registration_details | dist_verify_date             | timestamp without time zone |                         
+ nspprod      | data_applicant_registration_details | state_verify_by              | numeric                     |                         
+ nspprod      | data_applicant_registration_details | state_verify_date            | timestamp without time zone |                         
+ nspprod      | data_applicant_registration_details | min_verify_by                | numeric                     |                         
+ nspprod      | data_applicant_registration_details | min_verify_date              | timestamp without time zone |                         
+ nspprod      | data_applicant_registration_details | deleted_by                   | integer                     |                         
+ nspprod      | data_applicant_registration_details | delete_on                    | timestamp without time zone |                         
+ nspprod      | data_applicant_registration_details | deleted_by_level             | integer                     |                         
+ nspprod      | data_applicant_registration_details | rank                         | bigint                      |                         
+ nspprod      | data_applicant_registration_details | outofquota                   | integer                     |                         
+ nspprod      | data_applicant_registration_details | is_selected                  | boolean                     |                         
+ nspprod      | data_applicant_registration_details | lot_number                   | bigint                      |                         
+ nspprod      | data_applicant_registration_details | approved_date                | timestamp with time zone    |                         
+ nspprod      | data_applicant_registration_details | entitled_fee_amount          | numeric                     |                         
+ nspprod      | data_applicant_registration_details | entitled_lumpsump_amount     | numeric                     |                         
+ nspprod      | data_applicant_registration_details | scheme                       | integer                     |                         
+ nspprod      | data_applicant_registration_details | pay_amt_centre_shr           | numeric                     |                         
+ nspprod      | data_applicant_registration_details | pay_amt_state_shr            | numeric                     |                         
+ nspprod      | data_applicant_registration_details | in_rank                      | boolean                     |                         
+ nspprod      | data_applicant_registration_details | automate_benificiary         | integer                     |                         
+ nspprod      | data_applicant_registration_details | automate_payment             | integer                     |                         
+ nspprod      | data_applicant_registration_details | is_fee_calculated            | boolean                     |                         
+ nspprod      | data_applicant_registration_details | is_singlegirlchild           | boolean                     |                         
+ nspprod      | data_applicant_registration_details | is_university_rankholder     | boolean                     |                         
+ nspprod      | data_applicant_registration_details | is_xml_generated_for_payment | boolean                     |                         
+ nspprod      | data_applicant_registration_details | is_payment_file_pushed       | boolean                     |                         
+ nspprod      | data_applicant_registration_details | is_response_recieved         | boolean                     |                         
+ nspprod      | data_applicant_registration_details | supplementary                | boolean                     |                         
+ nspprod      | data_applicant_registration_details | admission_year               | integer                     |                         
+ nspprod      | data_applicant_registration_details | elastic_time                 | timestamp without time zone |                         
+ nspprod      | data_applicant_registration_details | parents_not_alive            | integer                     |                         
+ nspprod      | data_applicant_registration_details | sub_district_id              | integer                     |                         
+ nspprod      | data_applicant_registration_details | village_id                   | integer                     |                         
+ nspprod      | data_applicant_registration_details | is_bioauth_done              | boolean                     |                         
+ nspprod      | data_applicant_registration_details | trans_dt                     | timestamp without time zone |                         
+ nspprod      | data_applicant_registration_details | domicile_state_id            | numeric                     |                         
+ nspprod      | data_applicant_registration_details | fresh_renewal                | character                   |                        1
+ nspprod      | data_applicant_registration_details | csc_opr_id                   | character varying           |                      100
+ nspprod      | data_applicant_registration_details | applicant_name               | character varying           |                      250
+ nspprod      | data_applicant_registration_details | aadhaar_no                   | character varying           |                       12
+ nspprod      | data_applicant_registration_details | gender                       | character varying           |                        1
+ nspprod      | data_applicant_registration_details | agency_id                    | character varying           |                      155
+ nspprod      | data_applicant_registration_details | agency_name                  | character varying           |                      255
+ nspprod      | data_applicant_registration_details | enc_aadhaar                  | character varying           |                      128
+ nspprod      | data_applicant_registration_details | aadhaar_virtual_id           | character varying           |                       16
+ nspprod      | data_applicant_registration_details | aadhaar_registration_mode    | character varying           |                        1
+ nspprod      | data_applicant_registration_details | aadhaar_token_no             | character varying           |                       72
+ nspprod      | data_applicant_registration_details | is_approved_for_payment      | character                   |                        1
+ nspprod      | data_applicant_registration_details | approved_by                  | character varying           |                       20
+ nspprod      | data_applicant_registration_details | rural_urban                  | character                   |                        1
+ nspprod      | data_applicant_registration_details | approved_by_ip               | character varying           |                       50
+ nspprod      | data_applicant_registration_details | lot_number_history           | character varying           |                      500
+ nspprod      | data_applicant_registration_details | father_name                  | character varying           |                      250
+ nspprod      | data_applicant_registration_details | mother_name                  | character varying           |                      200
+ nspprod      | data_applicant_registration_details | gaurdian_name                | character varying           |                      200
+ nspprod      | data_applicant_registration_details | sanity                       | character varying           |                       50
+ nspprod      | data_applicant_registration_details | branch_ifsc_code             | character varying           |                       11
+ nspprod      | data_applicant_registration_details | bank_account_no              | character varying           |                       25
+ nspprod      | data_applicant_registration_details | pfms_code                    | character varying           |                       25
+ nspprod      | data_applicant_registration_details | bioauth_doc_path             | character varying           |                      100
+ nspprod      | data_applicant_registration_details | jwt                          | character varying           |                         
+ nspprod      | data_applicant_registration_details | scholarship_incentive        | character varying           |                        1
+ nspprod      | data_applicant_registration_details | payment_stoped               | character varying           |                        2
+ nspprod      | data_applicant_registration_details | permanent_address            | character varying           |                      200
+ nspprod      | data_applicant_registration_details | payment_sent                 | character                   |                        1
+ nspprod      | data_applicant_registration_details | email_id                     | character varying           |                      100
+ nspprod      | data_applicant_registration_details | bank_name                    | character varying           |                      120
+ nspprod      | data_applicant_registration_details | application_id               | character varying           |                       20
+ nspprod      | data_applicant_registration_details | r_pfms_payment_status        | character varying           |                      255
+ nspprod      | data_applicant_registration_details | updated_by                   | character varying           |                      100
+ nspprod      | data_applicant_registration_details | benif_status                 | character varying           |                       50
+ nspprod      | data_applicant_registration_details | created_by                   | character varying           |                         
+ nspprod      | data_applicant_registration_details | benif_error_code             | character                   |                        7
+ nspprod      | data_applicant_registration_details | benif_rej_reason_code        | character varying           |                     1024
+ nspprod      | data_applicant_registration_details | account_holder_type          | character                   |                        1
+ nspprod      | data_applicant_registration_details | benif_rej_reson_desc         | character varying           |                     2048
+ nspprod      | data_applicant_registration_details | pay_method                   | character                   |                        1
+ nspprod      | data_applicant_registration_details | trans_id                     | character varying           |                      100
+ nspprod      | data_applicant_registration_details | hash_dob                     | character varying           |                      256
+ nspprod      | data_applicant_registration_details | red_flag                     | character varying           |                        1
+ nspprod      | data_applicant_registration_details | payment_transaction_id       | character varying           |                      255
+ nspprod      | data_applicant_registration_details | ration_card_no               | character varying           |                       15
+ nspprod      | data_applicant_registration_details | inst_verify                  | character varying           |                        1
+ nspprod      | data_applicant_registration_details | payment_status               | character varying           |                       50
+ nspprod      | data_applicant_registration_details | ip_address                   | character varying           |                       50
+ nspprod      | data_applicant_registration_details | application_status           | character varying           |                        3
+ nspprod      | data_applicant_registration_details | payment_error_code           | character                   |                        7
+ nspprod      | data_applicant_registration_details | pfms_ben_code                | character varying           |                      255
+ nspprod      | data_applicant_registration_details | payment_rej_reason_code      | character varying           |                     1024
+ nspprod      | data_applicant_registration_details | dist_verify                  | character varying           |                        1
+ nspprod      | data_applicant_registration_details | payment_rej_reason_desc      | character varying           |                     2048
+ nspprod      | data_applicant_registration_details | ration_card_member_no        | character varying           |                       15
+ nspprod      | data_applicant_registration_details | state_verify                 | character varying           |                        1
+ nspprod      | data_applicant_registration_details | dist_document_verify         | character varying           |                        1
+ nspprod      | data_applicant_registration_details | inst_document_verify         | character varying           |                        1
+ nspprod      | data_applicant_registration_details | name_as_in_ration_card       | character varying           |                      250
+ nspprod      | data_applicant_registration_details | min_verify                   | character varying           |                       10
+ nspprod      | data_applicant_registration_details | aadhaar_vault_ref_token      | character varying           |                       15
+ nspprod      | data_applicant_registration_details | delete_record                | character                   |                        1
+ nspprod      | data_applicant_registration_details | payment_batch_id             | character varying           |                       20
+ nspprod      | data_applicant_registration_details | admission_no                 | character varying           |                       25
+ nspprod      | data_applicant_registration_details | delete_ip_address            | character varying           |                       20
+(134 rows)
+
